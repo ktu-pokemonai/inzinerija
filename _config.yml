@@ -1,0 +1,4 @@
+title: "Grupės pokemonai projektas"
+sass:
+  sass_dir: _sass
+  style: :compressed
