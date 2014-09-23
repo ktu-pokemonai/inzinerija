@@ -1,4 +1,5 @@
 title: "Grupės pokemonai projektas"
+baseurl: "/inzinerija"
 sass:
   sass_dir: _sass
   style: :compressed
