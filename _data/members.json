@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Rytis",
+		"surname": "Raslavičius",
+		"image": "/img/rytis.jpg"
+	},
+	{
+		"name": "Martynas",
+		"surname": "Stukas",
+		"image": "/img/martynas.jpg"
+	},
+	{
+		"name": "Edita",
+		"surname": "Markauskaitė",
+		"image": "/img/edita.jpg"
+	},
+	{
+		"name": "Gerda",
+		"surname": "Monkevičiūtė",
+		"image": "/img/gerda.jpg"
+	}
+]

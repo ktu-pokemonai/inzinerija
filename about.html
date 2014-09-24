@@ -1,0 +1,20 @@
+---
+layout: page
+title: Nariai
+---
+
+<div class="row">
+{% for member in site.data.members %}
+	<div class="col-md-3">
+		<div class="thumbnail">
+				<img src="{{ member.image | prepend: site.baseurl }}">
+			
+			<div class="caption">
+				<h3 class="text-center">
+					{{ member.name }} {{ member.surname }}
+				</h3>
+			</div>
+		</div>
+	</div>
+{% endfor %}
+</div>
