@@ -12,7 +12,7 @@ function getMilestones(el) {
     var templateUrl = container.data('template');
 
     $.get(templateUrl, function(template) {
-        $.get(url, function(data) {
+        $.get(url, {'state': 'all'}, function(data) {
 
             container.html('<div class="list-group">');
 
@@ -26,7 +26,13 @@ function getMilestones(el) {
                 html = html.replace(/__PROGRESS__/g, progress + '%');
                 html = html.replace(/__DATE__/g, dueDate);
 
-                container.append(html);
+                var item = $(html);
+
+                if(el.state != 'closed') {
+                    item.addClass('list-group-item-info');
+                }
+
+                container.append(item);
             });
 
             container.append('</div>');
