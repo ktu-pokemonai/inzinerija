@@ -2,21 +2,25 @@
 	{
 		"name": "Rytis",
 		"surname": "Raslavičius",
-		"image": "/img/rytis.jpg"
+		"image": "/img/rytis.jpg",
+        "group": "IF-2/5"
 	},
 	{
 		"name": "Martynas",
 		"surname": "Stukas",
-		"image": "/img/martynas.jpg"
+		"image": "/img/martynas.jpg",
+        "group": "IF-2/5"
 	},
 	{
 		"name": "Edita",
 		"surname": "Markauskaitė",
-		"image": "/img/edita.jpg"
+		"image": "/img/edita.jpg",
+        "group": "IFK-2"
 	},
 	{
 		"name": "Gerda",
 		"surname": "Monkevičiūtė",
-		"image": "/img/gerda.jpg"
+		"image": "/img/gerda.jpg",
+        "group": "IF-2/5"
 	}
 ]

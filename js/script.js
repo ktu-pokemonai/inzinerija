@@ -25,6 +25,12 @@ function getMilestones(el) {
                 html = html.replace(/__DESCRIPTION__/g, el.description);
                 html = html.replace(/__PROGRESS__/g, progress + '%');
                 html = html.replace(/__DATE__/g, dueDate);
+                if(typeof el.opened_issues !== 'undefined') {
+                    html = html.replace(/__OPENED__/g, el.opened_issues + " issues open");
+                } else {
+                    html = html.replace(/__OPENED__/g, 0 + " issues open");
+                }
+                html = html.replace(/__CLOSED__/g, el.closed_issues + " issues closed");
 
                 var item = $(html);
 

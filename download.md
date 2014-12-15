@@ -4,4 +4,5 @@ title: Parsiuntimas
 ---
 ### Nuorodos
 
-* [pokemonai-0-0-1.zip](#)
+* [Random string generation version]({{ '/files/sort_ramdom_test.rar' | prepend: site.baseurl }})
+* [Same string generation version]({{ '/files/sort_same_test.rar' | prepend: site.baseurl }})
